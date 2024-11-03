@@ -1,0 +1,19 @@
+.{
+    .name = "uuid",
+    .version = "1.0.0",
+    .dependencies = .{
+        .benchmark = .{
+            .url = "https://github.com/DivisionLogic/benchmark/archive/refs/tags/1.0.0.tar.gz",
+            .hash = "1220317bf57f3382d72ae76bea58726fd653c1f1bd78bdf877a0e989e0f3fcad7846",
+            .lazy = true,
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+        "assets",
+    },
+}
